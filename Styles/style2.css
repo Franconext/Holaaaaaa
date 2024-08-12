@@ -1,0 +1,53 @@
+.carta{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.carta > div{
+    flex: 1 1 200px;
+}
+.fotos{
+    width: 150px ;
+    height: 150px;
+    margin-top: 1rem;
+}
+.piedepag{
+    text-align: center;
+    background-color:#34495E;
+    color: #ECF0F1;
+    padding-top: 1rem; 
+    padding-bottom: 1rem;  
+}
+.encabezado{
+    text-align: center;
+    background-color: #34495E;
+    color: #ECF0F1;
+    padding-top: 1rem; 
+    padding-bottom: 1rem;  
+}
+.encabezado h1{
+    font-size: 4em;
+}
+.container-fluid{
+    max-width: 100%;
+    width: auto;
+
+}
+body{
+    background-color: #F39C12;
+}
+.social-icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.social-icons a {
+    text-decoration: none;
+    color: #E74C3C;
+    font-size: 2em;
+    transition: color 0.3s;
+}
+.social-icons a:hover {
+    color:  #3498DB;
+}

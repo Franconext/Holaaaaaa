@@ -1,0 +1,74 @@
+.encabezado{
+    text-align: center;
+    background-color:#2C3E50;
+    color: #ECF0F1;
+    padding-top: 1rem; 
+    padding-bottom: 1rem;  
+}
+.encabezadoh1{
+    font-size: 4em;
+}
+.container-fluid{
+    max-width: 100%;
+    width: auto;
+}
+body{
+    background-color: #F39C12;
+}
+img{
+    width: 400px; 
+    height:550px;
+}
+.piedepag{
+    text-align: center;
+    background-color:#34495E;
+    color: #ECF0F1;
+    padding-top: 1rem; 
+    padding-bottom: 1rem;  
+}
+.info {
+    background-color: #ECF0F1; 
+    padding: 1.5rem; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: 1rem 0;
+}
+.social-icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.social-icons a {
+    text-decoration: none;
+    color: #E74C3C;
+    font-size: 2em;
+    transition: color 0.3s;
+}
+.social-icons a:hover {
+    color:  #3498DB;
+}
+.acomodardiv{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+.espaciardiv div{
+    margin-bottom: 1rem;
+    justify-content: center;
+
+}
+.checkbox{
+    margin-right: 1rem
+}
+
+
+.Acomodar-Items-Interiores div{
+    display: flex;
+    flex-direction: column;
+}
+
+#Mensaje{
+    display: flex;
+    flex-direction: column;
+}
