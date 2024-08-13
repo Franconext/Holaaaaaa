@@ -2,11 +2,22 @@
     text-align: center;
     background-color:#2C3E50;
     color: #ECF0F1;
-    padding-top: 1rem; 
-    padding-bottom: 1rem;  
+    padding: 10px 20px;
+    text-align: center; 
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo {
+    width: 50px; 
+    height: auto;
+    margin-right: 10px; 
 }
 .encabezadoh1{
-    font-size: 4em;
+    margin: 0;
+    font-size: 4em; 
 }
 .container-fluid{
     max-width: 100%;
@@ -32,6 +43,7 @@ img{
     border-radius: 8px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     margin: 1rem 0;
+    text-align: center;
 }
 .acomodarimg img{
     height: 45px;

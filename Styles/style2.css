@@ -20,18 +20,28 @@
 }
 .encabezado{
     text-align: center;
-    background-color: #34495E;
+    background-color:#2C3E50;
     color: #ECF0F1;
-    padding-top: 1rem; 
-    padding-bottom: 1rem;  
+    padding: 10px 20px;
+    text-align: center; 
 }
-.encabezado h1{
-    font-size: 4em;
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo {
+    width: 50px; 
+    height: auto;
+    margin-right: 10px; 
+}
+.encabezadoh1{
+    margin: 0;
+    font-size: 4em; 
 }
 .container-fluid{
     max-width: 100%;
     width: auto;
-
 }
 body{
     background-color: #F39C12;
