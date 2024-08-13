@@ -33,20 +33,9 @@ img{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     margin: 1rem 0;
 }
-.social-icons {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-}
-.social-icons a {
-    text-decoration: none;
-    color: #E74C3C;
-    font-size: 2em;
-    transition: color 0.3s;
-}
-.social-icons a:hover {
-    color:  #3498DB;
+.acomodarimg img{
+    height: 45px;
+    width: 45px;
 }
 .acomodardiv{
     display: flex; 

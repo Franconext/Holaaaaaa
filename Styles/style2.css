@@ -36,18 +36,7 @@
 body{
     background-color: #F39C12;
 }
-.social-icons {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-}
-.social-icons a {
-    text-decoration: none;
-    color: #E74C3C;
-    font-size: 2em;
-    transition: color 0.3s;
-}
-.social-icons a:hover {
-    color:  #3498DB;
+.acomodarimg img{
+    height: 45px;
+    width: 45px;
 }

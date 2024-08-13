@@ -16,9 +16,23 @@ body{
     background-color:#F39C12;
 }
 
-figure img {
-    max-width: 70%;
-}
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 70%;
+  }
+  
+  figure a {
+    display: inline-block;
+  }
+  
+  figure img {
+    max-width: 100%;
+    height: auto;
+  }
+  
 
 .piedepag{
     text-align: center;
@@ -52,19 +66,7 @@ figure img {
     height: 100%;
     border: 0;
 }
-
-.social-icons {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-}
-.social-icons a {
-    text-decoration: none;
-    color: #E74C3C;
-    font-size: 2em;
-    transition: color 0.3s;
-}
-.social-icons a:hover {
-    color:  #3498DB;
+.acomodarimg img{
+    height: 45px;
+    width: 45px;
 }
